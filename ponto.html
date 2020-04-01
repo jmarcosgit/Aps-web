@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <title>Login</title>
+  </head>
+
+  <body class="bg-secondary">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <!--Logo-->
+        <a class="navbar-brand">APS</a>
+        <!--Menu Hamburguer-->
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-target">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--Navegacao-->
+        <div class="collapse navbar-collapse" id="nav-target">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="login.html" class="btn btn-dark nav-link text-white right">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a href="ponto.html" class="btn btn-dark nav-link text-white">Painel de Ponto</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="" class="btn btn-dark nav-link dropdown-toggle text-white" data-toggle="dropdown">Master</a>
+                    <div class="bg-dark dropdown-menu dropdown-menu-sm-right">
+                        <a href="cadastro.html" class="btn btn-dark dropdown-item text-white bg-dark" >Cadastro de Funcionario</a>
+                        <a href="lista.html" class="btn btn-dark dropdown-item text-white bg-dark">Listagem de Horarios</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="card container mt-2">
+        <div class="card-body text-center">
+            <form class="form-signin">
+                <h3 class="card-title">Ponto</h3>
+                    <div>
+                        <div>
+                            <output id="data" style="font-family: 'arial black', 'avant garde'; font-size: 24px;"></output>
+                        </div>
+
+                        <div>
+                            <output id="hora" style="font-family: 'arial black', 'avant garde'; font-size: 24px;"></output> 
+                        </div>
+                    </div> 
+                <div class="text-center">
+                    <a href="" class="btn bg-success btn-lg">Entrada</a>
+
+                    <a href="" class="btn bg-danger btn-lg">Saida</a>
+                </div>
+              </form>
+        </div>
+    </div>
+    
+    
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="js/data.js"></script>
+  </body>
+</html>
+
